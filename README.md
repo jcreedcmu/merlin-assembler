@@ -30,7 +30,7 @@ wrote a little perl script to extract all of the files since I
 couldn't find documentation for bulk extraction.
 
 The extracted files are in the directory `validate`. Looking at the
-instructions in `READMEFIRST`, I seem to need something called
-`AppleWin`, and an emulator that supports hard drives, to actually run
+instructions in `READMEFIRST`, I seem to need to be running an emulator
+such as `AppleWin` that supports hard drives, in order to actually run
 `MERLIN.SYSTEM`. If I try to do so from the javascript emulator
 implementation, I get an error message "Unsupported Configuration".
