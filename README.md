@@ -3,17 +3,17 @@ Extracted Merlin Assembler Sources
 
 I was curious about what assemblers historically existed for the Apple
 //. I found
-[https://www.callapple.org/vintage-apple-computers/apple-ii/8-bit-merlin-ide-version-2-59-source-now-documented-and-available/](this webpage)
-which linked to a file named [ftp://public.asimov.net/pub/apple_II/images/programming/assembler/merlin/VALIDATE.PO](VALIDATE.PO).
+[this webpage](https://www.callapple.org/vintage-apple-computers/apple-ii/8-bit-merlin-ide-version-2-59-source-now-documented-and-available/)
+which linked to a file named [VALIDATE.PO](ftp://public.asimov.net/pub/apple_II/images/programming/assembler/merlin/VALIDATE.PO).
 
 I guessed that it was
-a [https://en.wikipedia.org/wiki/Apple_ProDOS](ProDOS) formatted disk,
+a [ProDOS](https://en.wikipedia.org/wiki/Apple_ProDOS) formatted disk,
 so headed over
 to
-[https://www.scullinsteel.com/apple2/](this online Apple // emulator),
+[this online Apple // emulator](https://www.scullinsteel.com/apple2/),
 put a copy of `ProDOS_2_4_2.dsk` that I found
 in
-[https://mirrors.apple2.org.za/ftp.apple.asimov.net/images/masters/prodos/](this archive) in
+[this archive](https://mirrors.apple2.org.za/ftp.apple.asimov.net/images/masters/prodos/) in
 Disk Drive 1, put `VALIDATE.PO` in Disk Drive 2, selected
 `BASIC.SYSTEM` and typed `CAT,D2` (meaning: "list file catalog, drive
 2") and saw a bunch of `.S` files. Only later did I realize that I
@@ -22,10 +22,10 @@ hit the `6` key to toggle over to `Slot 6 Disk 2`, instead of the
 default `Slot 6, Disk 1`.
 
 The next task was to try to actually extract the files. I
-tried [https://github.com/paleotronic/dskalyzer](dskalyzer) to but
+tried [dskalyzer](https://github.com/paleotronic/dskalyzer) to but
 couldn't quite succeed at using it after `go build`. I did
 subsequently succeed at
-using [http://applecommander.sourceforge.net/](Apple Commander), and
+using [Apple Commander](http://applecommander.sourceforge.net/), and
 wrote a little perl script to extract all of the files since I
 couldn't find documentation for bulk extraction.
 
