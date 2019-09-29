@@ -1,0 +1,36 @@
+At the '%' prompt press 'L' then enter 'INTERPRETER'
+At the ':' prompt enter 'ASM'
+At the 'Update source (Y/N)?' prompt press 'N'
+At the 'Give value for SAVOBJ :' prompt enter '1'
+Wait for the assembly to complete
+At the ':' prompt enter 'Q'
+At the '%' prompt press 'L' then enter 'MACED'
+At the ':' prompt enter 'ASM'
+At the 'Update source (Y/N)?' prompt press 'N'
+At the 'Give value for SAVOBJ :' prompt enter '1'
+Wait for the assembly to complete
+At the ':' prompt enter 'Q'
+At the '%' prompt press 'L' then enter 'MACEXEC'
+At the ':' prompt enter 'ASM'
+At the 'Update source (Y/N)?' prompt press 'N'
+At the 'Give value for SAVOBJ :' prompt enter '1'
+Wait for the assembly to complete
+At the ':' prompt enter 'Q'
+At the '%' prompt press 'D'
+At the 'Disk command:' prompt enter 'BRUN PACKOP2'
+At the 'Disk command:' press the enter key
+At the '%' prompt press 'L' then enter 'MACASS'
+At the ':' prompt enter 'ASM'
+At the 'Update source (Y/N)?' prompt press 'N'
+At the 'Assemble from M-16:' prompt enter '1'
+At the 'Give value for SAVOBJ :' prompt enter '1'
+Wait for the assembly to complete
+At the ':' prompt enter 'Q'
+At the '%' prompt press 'D'
+At the 'Disk command:' prompt enter 'BRUN SAVE/MERLIN'
+At the 'Disk command:' press the enter key
+At the ':' prompt enter 'Q'
+At the '%' prompt press 'Q' then press 'Y'
+Press the down arrow key twice
+Press the enter key
+At the '%' prompt enter 'CMP SAVE/MERLIN.SYSTEM MERLIN.SYSTEM'
